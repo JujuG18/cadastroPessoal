@@ -1,2 +1,3 @@
-# cadastroPessoal
-Desafio proposto pela Gama Academy que é criar um formulário com os dados pessoais do usuário 
+# Cadastro Pessoal
+
+Conforme o desafio proposto pela Gama Academy, eu aproveitei o fim de semana para colocar em prática tudo o que havia aprendido na Trilha Preparatória. 
