@@ -47,11 +47,11 @@ body {
 } 
 
 input[type='text'], input[type='tel']{
-    width: 60%;
+    width: 56%;
 }
 
 select{
-    width: 62%;
+    width: 56%;
 }
 
 small{
@@ -65,7 +65,7 @@ input[type='submit']{
     margin-top: 15px;
     margin-left: 32%;
     font-size: 15px; 
-    width: 15%;
+    width: 12%;
     text-align: center;
 }
 
@@ -73,6 +73,6 @@ input[type='reset']{
     margin-top: 15px;
     margin-left: 15px;
     font-size: 15px;
-    width: 15%;
+    width: 12%;
     text-align: center;
 }
