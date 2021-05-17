@@ -2,7 +2,7 @@
 
 Conforme o desafio proposto pela Gama Academy, eu aproveitei o fim de semana para colocar em prática tudo o que havia aprendido na Trilha Preparatória. 
 
-Eu criei um formulário de acordo com as instruções dadas pela Gama Academy. Eu alinhei o formulário no centro da página e dentro dele, inseri os campos Nome Completo, CPF, RG, Sexo, Endereco, Numero, Bairro, Cidade, Estado, CEP, Telefone Fixo, Telefone Celular, todos alinhados para a direita. 
+Eu criei um formulário de acordo com as instruções dadas pela Gama Academy. Eu alinhei o formulário no centro da página e dentro dele, inseri os campos Nome Completo, CPF, RG, Sexo, Endereco, Número, Bairro, Cidade, Estado, CEP, Telefone Fixo e Telefone Celular, todos alinhados para a direita. 
 
 No campo Sexo, eu coloquei a tag select com as opções Masculino e Feminino, além da opção Outros em respeito à comunidade LGBT+. 
 
