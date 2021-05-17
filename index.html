@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/logo.png" /> <!-- Coloca ícone na aba da página -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Cadastro Pessoal</title>
+</head>
+
+<body>
+
+    <div id="titulo">
+      <h1>Cadastro Pessoal</h1> 
+    </div>
+
+    <div class="formulario"> 
+      <form id="dadosFormulario" method="get" action=".">
+        <p>Preencha o formulário com seus dados:</p>
+            
+        <div class="field">
+          <label for="nome">*Nome Completo:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+        </div>
+
+        <div class="field">
+          <label for="cpf">*CPF:</label>
+          <input type="text" id="cpf_digitado" name="cpf" placeholder="Digite seu CPF" required />
+        </div>
+
+        <div class="field">
+          <label for="rg">RG:</label>
+          <input type="text" id="rg_digitado" name="rg" placeholder="Digite seu RG" />
+        </div>
+        
+        <div class="field">
+          <label for="sexo">Sexo:</label>
+          <select name="sexo" id="sexo" form="sexoform">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="endereco">*Endereço:</label>
+          <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço" required />
+        </div> 
+
+        <div class="field">
+          <label for="numero">*Número:</label>
+          <input type="text" id="numero" name="numero" placeholder="Digite seu número" required />
+        </div>
+
+        <div class="field">
+          <label for="bairro">Bairro:</label>
+          <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro" />
+        </div> 
+
+        <div class="field">
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade" />
+        </div> 
+        
+        <div class="field">
+          <label for="uf">Estado:</label>  
+          <select name="uf" id="uf" form="ufform">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div> 
+         
+        <div class="field">
+          <label for="cep">CEP:</label>
+          <input type="text" id="cep" name="cep" placeholder="00000-000" onblur="pesquisacep(this.value);" />
+        </div> 
+
+        <div class="field">
+          <label for="telFixo">Telefone Fixo:</label>
+          <input type="tel" id="telFixo" name="telFixo" placeholder="(01) 2345-6789" pattern="\([0-9]{2}\) [0-9]{4}-[0-9]{4}$" />
+        </div> 
+
+        <div class="field">
+          <label for="cel">*Telefone Celular:</label>
+          <input type="tel" id="cel" name="cel" placeholder="(99) 99999-9999" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}$" required />
+        </div>
+
+        <small>* indica campo obrigatório</small>
+
+        <input type="submit" value="Enviar" onclick="validacao()" />
+        <input type="reset" value="Limpar" />
+      </form>
+    </div>
+  
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
