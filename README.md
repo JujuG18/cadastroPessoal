@@ -21,7 +21,6 @@ Enfim, realmente foi um desafio enriquecedor! Ainda mais que o prazo estabelecid
 
 
 Fontes:
-
-Programa em Javascript para validação de CEP: https://pt.stackoverflow.com/questions/298846/valida%C3%A7ao-de-cep-com-m%C3%A1scara
-Posicionamento de labels em formulário usando CSS: https://www.sitepoint.com/position-text-labels-on-forms-using-css/
-Tag select com todos os estados brasileiros: https://www.blogson.com.br/lista-de-todos-os-estados-option-select-html/
+- Programa em Javascript para validação de CEP: https://pt.stackoverflow.com/questions/298846/valida%C3%A7ao-de-cep-com-m%C3%A1scara
+- Posicionamento de labels em formulário usando CSS: https://www.sitepoint.com/position-text-labels-on-forms-using-css/ 
+- Tag select com todos os estados brasileiros: https://www.blogson.com.br/lista-de-todos-os-estados-option-select-html/
