@@ -17,3 +17,11 @@ Além disso, eu inseri o asterisco nos campos Nome Completo, CPF, Endereço, Nú
 Depois dos campos, eu pus dois botões, Enviar e Limpar. Se o usuário preencher o formulário corretamente e depois clicar em Enviar, aparecerá uma mensagem "Cadastro feito com sucesso!". Se o usuário inserir CPF inválido e depois clicar em Enviar, aparecerá uma mensagem "Seu CPF não é válido!". O botão Limpar serve para o usuário resetar os campos de volta para o padrão colocado no placeholder de cada campo. 
 
 Enfim, realmente foi um desafio enriquecedor! Ainda mais que o prazo estabelecido foi de apenas três dias e isso me fez aprender a trabalhar sob pressão, além de entender melhor o desenvolvimento front-end. 
+
+
+
+Fontes:
+
+Programa em Javascript para validação de CEP: https://pt.stackoverflow.com/questions/298846/valida%C3%A7ao-de-cep-com-m%C3%A1scara
+Posicionamento de labels em formulário usando CSS: https://www.sitepoint.com/position-text-labels-on-forms-using-css/
+Tag select com todos os estados brasileiros: https://www.blogson.com.br/lista-de-todos-os-estados-option-select-html/
